@@ -1,0 +1,19 @@
+/*Style for Gallery div*/
+#gallery #slideShowContainer {
+  width: 670px;
+  bottom: -66px;
+}
+#slideShowContainer div.photoOverlay {
+  bottom: 27px;
+}
+#jumbo-card .main-container {
+  width: inherit;
+}
+/*Style for Jumbo Card*/
+#jumbo-card .popup {
+  z-index: 100;
+}
+
+#headerImage {
+  width: 100%
+}
