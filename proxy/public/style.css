@@ -1,3 +1,30 @@
+/*Style for wrap*/
+.prox-background {
+  position: relative;
+}
+.prox-background .background-grey {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  bottom: 40px;
+  left: 0px;
+  background: #f5f5f5;
+  border-bottom: 1px solid #e6e6e6;
+}
+.proxy-contain {
+  position: relative;
+  width: 1050px;
+  margin: 0 auto;
+}
+.proxy-contain #gallery {
+  position: absolute;
+  bottom: 80px;
+  right: 40px;
+}
+.proxy-contain .mapbox-details {
+  width: 280px;
+}
 /*Style for Gallery div*/
 #gallery #slideShowContainer {
   width: 670px;
@@ -10,23 +37,27 @@
   width: inherit;
 }
 /*Style for Jumbo Card*/
-#jumbo-card .popup {
+#jumbo-card .popup{
   z-index: 100;
 }
-
-#headerImage {
-  width: 100%
+#jumbo-card .mapbox-details {
+  width: 280px;
 }
+/*Style for Calender*/
 
 
 /*Other styles for placements corrections*/
 .super-container {
   padding-top: 18px;
-  width: 960px;
+  width: 975px;
   margin: 0 auto;
   display: flex;
 }
 .super-container #review {
   width: 660px;
   padding: 0 30px 0 0;
+}
+
+.navigation .nav-top img{
+  width: 100%;
 }
